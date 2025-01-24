@@ -9,7 +9,7 @@ def combine_playlists(num_playlists):
     folder = 'csv_files'
     songs = Table().with_columns("Track Name", "Artist(s)", "Album", "Release Date", "Duration (ms)", "Spotify URL")
     for i in numpy.arange(num_playlists): 
-        path = os.path.join(folder, f"{i}.csv")  # Construct the file path using string formatting
+        path = os.path.join(folder, f"{i}.csv") 
         try:
             df = pandas.read_csv(path)
             ds_table = Table().with_columns(

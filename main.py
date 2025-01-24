@@ -43,10 +43,3 @@ text1= tkinter.Text(popup, wrap="word", height=10, width=50)
 text1.pack(pady=10)
 popup.mainloop()
 
-'''
-print("Hello! I make playlists based on Spotify data")
-query=input("Give me a word or phrase, and I'll gather the top X playlists on Spotify with that word or phrase in the name")
-limit=int(input("Give me a number under 50 bc this computer sucks to search"))
-songs=int(input("Give me another number for the compiled playlist's amount of songs"))
-'''
-
